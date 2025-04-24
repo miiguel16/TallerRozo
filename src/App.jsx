@@ -7,10 +7,19 @@ import MainContainer from '../src/Components/MainContainer/MainContainer';
 
 export default function App() {
   return (
-    <div className=" w-full h-full flex flex-col justify-between">
-      <Header />
-      <MainContainer/>
-      <Footer />
-    </div>
+    <div className="min-h-screen flex flex-col">
+    {/* Header */}
+    <Header />
+  
+    {/* Contenido principal que crece para ocupar el espacio disponible */}
+    <main className="flex-grow">
+      <MainContainer />
+    </main>
+  
+    {/* Footer */}
+    <Footer />
+  </div>
+  
+
   );
 }
