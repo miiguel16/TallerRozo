@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
     return (
         <header className="bg-slate-800 w-full h-60 flex justify-around items-center px-6">
-            
+
             <div className="flex items-center space-x-4">
                 <div className="w-30 h-30 rounded-full flex items-center justify-center text-white font-bold">
                     <img
