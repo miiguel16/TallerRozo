@@ -1,14 +1,15 @@
 
-import Header from '../src/Layouts/Header/Header';
+import React from 'react';
 import Footer from '../src/Layouts/Footer/Footer';
+import Header from '../src/Layouts/Header/Header';
 
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 text-gray-800">
-  <Header />
+    <div className="bg-slate-100 w-full h-screen flex flex-col justify-between">
+      <Header />
 
-  <Footer />
-</div>  
+      <Footer />
+    </div>
   );
 }
