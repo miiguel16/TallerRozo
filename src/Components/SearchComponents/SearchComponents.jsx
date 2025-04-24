@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function SearchComponents() {
-  return (
-    <div>
-      
-    </div>
-  )
+export default function SearchComponents({ busqueda, setBusqueda }) {
+    return (
+        <input
+            type="text"
+            placeholder="Buscar productos..."
+            className="w-120 ml-4 mb-4 p-4 border rounded"
+            value={busqueda}
+            onChange={(e) => setBusqueda(e.target.value)}
+        />
+    );
 }

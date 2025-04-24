@@ -7,7 +7,7 @@ import MainContainer from '../src/Components/MainContainer/MainContainer';
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="bg-white min-h-screen flex flex-col">
     <Header />
       <MainContainer /> 
     <Footer />
